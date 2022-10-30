@@ -8,9 +8,17 @@ project(Boilerplate VERSION 1.0)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+# Set up configuration header file
+configure_file(include/Config.h.in
+	"${CMAKE_CURRENT_SOURCE_DIR}/include/Config.h")
+
 # Compile the passed source files into an executable
 add_executable(Boilerplate
 	"${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp")
+
+# Reference include directory
+target_include_directories(Boilerplate PUBLIC
+	"${CMAKE_CURRENT_SOURCE_DIR}/include")
 
 # Set the output directory for executables
 set_target_properties(Boilerplate

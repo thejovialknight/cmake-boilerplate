@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+../include/Config.h
+
 /home/thejovialknight/repos/cmake-boilerplate/src/main.cpp
+Config.h
+/home/thejovialknight/repos/cmake-boilerplate/src/Config.h
 iostream
 -
 
