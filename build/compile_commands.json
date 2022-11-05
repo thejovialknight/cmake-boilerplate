@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/thejovialknight/repos/cmake-boilerplate/build",
+  "command": "/usr/bin/c++   -I/home/thejovialknight/repos/cmake-boilerplate/include    -std=gnu++17 -o CMakeFiles/Boilerplate.dir/src/main.cpp.o -c /home/thejovialknight/repos/cmake-boilerplate/src/main.cpp",
+  "file": "/home/thejovialknight/repos/cmake-boilerplate/src/main.cpp"
+}
+]
