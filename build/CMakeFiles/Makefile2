@@ -81,12 +81,12 @@ clean: CMakeFiles/Boilerplate.dir/clean
 CMakeFiles/Boilerplate.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boilerplate.dir/build.make CMakeFiles/Boilerplate.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boilerplate.dir/build.make CMakeFiles/Boilerplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/conner/repos/cmake-boilerplate/build/CMakeFiles --progress-num=1,2 "Built target Boilerplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/conner/repos/cmake-boilerplate/build/CMakeFiles --progress-num=1,2,3 "Built target Boilerplate"
 .PHONY : CMakeFiles/Boilerplate.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Boilerplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/conner/repos/cmake-boilerplate/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/conner/repos/cmake-boilerplate/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Boilerplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/conner/repos/cmake-boilerplate/build/CMakeFiles 0
 .PHONY : CMakeFiles/Boilerplate.dir/rule

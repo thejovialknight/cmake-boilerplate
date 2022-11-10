@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/conner/repos/cmake-boilerplate/src/main.cpp" "CMakeFiles/Boilerplate.dir/src/main.cpp.o" "gcc" "CMakeFiles/Boilerplate.dir/src/main.cpp.o.d"
+  "/home/conner/repos/cmake-boilerplate/src/test.cpp" "CMakeFiles/Boilerplate.dir/src/test.cpp.o" "gcc" "CMakeFiles/Boilerplate.dir/src/test.cpp.o.d"
   )
 
 # Targets to which this target links.

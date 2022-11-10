@@ -17,7 +17,9 @@ configure_file(include/Config.h.in
 
 # Compile the passed source files into an executable
 add_executable(Boilerplate
-	"${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp")
+	"${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp"
+	"${CMAKE_CURRENT_SOURCE_DIR}/src/test.cpp"
+	)
 
 # Reference include directory
 target_include_directories(Boilerplate PUBLIC
